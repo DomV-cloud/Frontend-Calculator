@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import useCalculate from './api/hooks/useCalculate';
-import useLogs from './api/hooks/useLogs';
-import { ExpressionType } from './enums/ExpressionTypeEnum';
+import useCalculate from '../api/hooks/useCalculate';
+import useLogs from '../api/hooks/useLogs';
+import { ExpressionType } from '../enums/ExpressionTypeEnum';
 import HistoryComponent from './HistoryComponent';
 
 const CalculatorComponent: React.FC = () => {

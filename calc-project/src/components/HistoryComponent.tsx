@@ -1,5 +1,5 @@
 import React from 'react';
-import { Log } from './interfaces/LogInterface';
+import { Log } from '../interfaces/LogInterface';
 
 interface HistoryComponentProps {
   logs: Log[];

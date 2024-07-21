@@ -1,5 +1,5 @@
 import React from 'react';
-import useLogs from './api/hooks/useLogs';
+import useLogs from '../api/hooks/useLogs';
 
 const LogsComponent: React.FC = () => {
   const { logs, error, loading } = useLogs();

@@ -1,4 +1,4 @@
-import CalculatorComponent from "./CalculatorComponent"
+import CalculatorComponent from "./components/CalculatorComponent"
 
 function App() {
 

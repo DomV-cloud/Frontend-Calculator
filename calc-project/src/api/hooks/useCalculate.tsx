@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { ExpressionType } from '../../enums/ExpressionTypeEnum';
 import { CalculationResult } from '../../interfaces/CalculationResultInterface';
 import { CalculateHook } from './CalculateHook';
-
-const API_BASE_URL = 'https://localhost:7166/api/calculator';
+import { API_BASE_URL } from '../../configuration/AppConf';
 
 const useCalculate = (): CalculateHook => {
   const [result, setResult] = useState<CalculationResult | null>(null);

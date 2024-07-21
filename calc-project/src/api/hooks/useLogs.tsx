@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Log } from '../../interfaces/LogInterface';
 import { LogsHook } from './LogHook';
-
-const API_BASE_URL = 'https://localhost:7166/api/calculator';
+import { API_BASE_URL } from '../../configuration/AppConf';
 
 const useLogs = (): LogsHook => {
   const [logs, setLogs] = useState<Log[]>([]);
